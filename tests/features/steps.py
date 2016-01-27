@@ -15,8 +15,8 @@ def check_number(step, expected):
         "Got %d" % world.number
 
 def factorial(number):
-   number = int(number)
-    if (number == 0) or (number == 1):
-        return 1
-    else:
-        return number
+	number = int(number)
+	if (number == 0) or (number == 1):
+   		return 1
+   	else:
+   		return number
